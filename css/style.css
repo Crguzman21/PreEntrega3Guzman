@@ -1,0 +1,11 @@
+.encabezado {
+  background-image: url("../assets/img/encabezado.jpg");
+  height: 11.6875rem;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: .625rem; }
