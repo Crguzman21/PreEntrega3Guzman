@@ -1,0 +1,15 @@
+.encabezado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../assets/img/encabezado.jpg");
+    height: 11.6875rem;
+    background-size: 100% 100%;
+        h1{
+            color: red;
+            font-family: "Kranky", serif;
+            font-weight: 600;
+            font-style: italic; 
+        }
+}
+

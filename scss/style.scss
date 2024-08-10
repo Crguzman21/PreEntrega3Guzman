@@ -1,12 +1,37 @@
-.encabezado {
-    background-image: url("../assets/img/encabezado.jpg") ;
-    height: 11.6875rem;
-    background-size: 100% 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: .625rem;
-}
+/*importando lo que corresponde a utilities*/
+
+
+
+
+
+
+
+
+/*importando lo que corresponde a base*/
+@import "./base/reset";
+@import "./base/typografias";
+
+
+/*importando lo que corresponde a layout*/
+@import "./layout/header";
+@import "./layout/main-index";
+@import "./layout/footer";
+@import "./layout/main-ninas";
+@import "./layout/main-productos";
+
+
+
+
+/*importando lo que corresponde a components*/
+@import "./components/button";
+@import"./components/navbar";
+@import "./components/icons";
+
+
+
+
+/*importando lo que corresponde a media*/
+
+
+
+

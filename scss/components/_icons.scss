@@ -1,0 +1,25 @@
+.icons{
+    justify-content: left;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    width: .625rem;
+    ul{
+        display: flex;
+        list-style: none;
+        padding: 2.1875rem;        
+            li{
+                
+            }
+            button{
+                justify-content: center;
+                align-items: center;
+            }
+            img{
+                padding: .625rem;
+                width: 6.25rem;
+                align-items: center;
+                
+            }
+    }
+}

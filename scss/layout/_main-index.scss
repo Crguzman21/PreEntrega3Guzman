@@ -1,0 +1,58 @@
+main{
+    h2{
+        display: flex;
+        justify-content: center;
+        margin: 1.25rem;
+        font-size: 3.125rem;
+        font-family: "Kranky", serif;
+        font-weight: 600;
+        font-style: italic;
+    }
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    p{
+        font-size: 2rem;
+        margin: .625rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: italic;
+    }
+}
+
+.img-1{
+    width: 34.5rem;
+    height: 19.9375rem;
+    margin: .625rem;
+}
+
+.img-2{
+    width: 23.125rem;
+    height: 22.4375rem;
+    margin: .625rem;
+}
+
+.img-3 {
+    width: 22.25rem;
+    height: 25rem;
+    margin: .625rem;
+}
+
+.producto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 31.25rem;
+        height: 31.25rem;
+        margin: .625rem 8.75rem;
+    }
+    p{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+    gap: 12.5rem;
+    background-color: #D9D9D9;
+    list-style: none;
+    padding: .625rem;
+    margin: .625rem 0;
+    border-radius: .625rem;
+        li{
+            font-family: "Kranky", serif;
+            font-weight: 600;
+            font-style: italic;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 2rem;
+            margin-right: 3.125rem;
+            &:hover{
+                box-shadow: 2px 2px 5px black;
+            }
+        }
+}
