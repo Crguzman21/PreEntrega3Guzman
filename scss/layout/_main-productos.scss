@@ -1,0 +1,26 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+        img{
+            object-fit: contain;
+        }
+}
+.card{
+    margin: 1.875rem;
+    width: 21.875rem;
+    height: 32.8125rem;
+    background-color: white;
+    border-radius: .625rem;
+    box-shadow: .625rem .625rem 1.25rem black;
+        .card-info{
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            font-family: "Poppins", sans-serif;
+            font-weight: 600;
+            font-style: italic;        
+            ul{
+                list-style-type: none;
+            }
+        }
+}

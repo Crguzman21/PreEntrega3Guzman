@@ -1,0 +1,33 @@
+.form{
+    background-color: lightblue;
+    width: 98%;
+    height: 23.125rem;
+    margin: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    .info{
+        margin: .625rem;
+        color: black;
+        text-align: center;
+        border-radius: .625rem;
+        box-shadow: .625rem .625rem 1.25rem black;
+    }
+    .controls{
+        width: 50%;
+        padding: .625rem;
+        border-radius: .25rem;
+        margin-bottom: 1rem;
+        margin: 1.25rem;
+        border-radius: .625rem;
+        box-shadow: .625rem .625rem 1.25rem black;
+    }
+}
+
+.grid-form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}

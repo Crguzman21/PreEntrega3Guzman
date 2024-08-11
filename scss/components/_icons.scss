@@ -3,23 +3,25 @@
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
-    width: .625rem;
-    ul{
-        display: flex;
-        list-style: none;
-        padding: 2.1875rem;        
-            li{
-                
-            }
-            button{
-                justify-content: center;
-                align-items: center;
-            }
-            img{
-                padding: .625rem;
-                width: 6.25rem;
-                align-items: center;
-                
-            }
-    }
+        ul{
+            display: inline-block;
+            list-style: none;
+            margin: .625rem;
+                li{
+                    display: inline-block;
+                    margin: 0 .3125rem;
+                }
+                    button{
+                        display: flex;
+                        align-items: center;
+                        height: 110px;
+                        padding: 0;
+                    }
+                    img{
+                        width: 1.5rem;
+                        align-items: center;
+                        height: 1.5rem;
+                        vertical-align: middle;
+                    }
+        }
 }

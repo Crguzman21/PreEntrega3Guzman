@@ -18,8 +18,7 @@
 @import "./layout/footer";
 @import "./layout/main-ninas";
 @import "./layout/main-productos";
-
-
+@import "./layout/main-cita";
 
 
 /*importando lo que corresponde a components*/
@@ -31,7 +30,8 @@
 
 
 /*importando lo que corresponde a media*/
-
+@import "./layout/media/media1440.scss";
+@import "./layout/media/media1280.scss";
 
 
 
