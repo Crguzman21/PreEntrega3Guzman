@@ -1,0 +1,22 @@
+@media (max-width:1090px){
+    .peinados-damas{
+        .damas{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .producto{
+        div{
+            width: 100%;
+            img{
+                width: 21.875rem;
+            }
+        }
+    }
+
+    .card{
+        margin: .625rem 0;
+    }
+
+}

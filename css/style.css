@@ -239,10 +239,68 @@ button {
 /*importando lo que corresponde a media*/
 @media (max-width: 1440px) {
   .navbar {
-    gap: 7.5rem; } }
-
-@media (max-width: 1280) {
+    gap: 7.5rem; }
   .producto div {
-    flex: 1 1 50%;
-    align-items: center;
-    justify-content: center; } }
+    width: 100%; } }
+
+@media (max-width: 1283px) {
+  .producto div img {
+    object-fit: contain;
+    width: 25rem; } }
+
+@media (max-width: 1223px) {
+  .navbar {
+    gap: 6.25rem;
+    font-size: 1.5rem; } }
+
+@media (max-width: 1180px) {
+  .peinados-damas {
+    width: 100%; }
+    .peinados-damas img {
+      margin: 0 0; }
+  .card {
+    margin: 1.25rem; } }
+
+@media (max-width: 1155px) {
+  .peinados-damas {
+    width: 100%; }
+    .peinados-damas .damas {
+      gap: 0; }
+      .peinados-damas .damas p {
+        margin: 0 0; }
+      .peinados-damas .damas img {
+        margin: 0 0; } }
+
+@media (max-width: 1120px) {
+  .navbar {
+    gap: 4.375rem; }
+  .damas {
+    gap: 0; }
+    .damas p {
+      font-size: 1.75rem; } }
+
+@media (max-width: 1090px) {
+  .peinados-damas .damas {
+    display: flex;
+    flex-direction: column; }
+  .producto div {
+    width: 100%; }
+    .producto div img {
+      width: 21.875rem; }
+  .card {
+    margin: .625rem 0; } }
+
+@media (max-width: 1024px) {
+  .navbar {
+    gap: 3.125rem; }
+  .damas p {
+    margin: .625rem .625rem;
+    gap: 1.25rem; }
+  .card {
+    width: 80%;
+    margin: 1.25rem;
+    height: 35rem; }
+    .card img {
+      width: 100%; }
+  .form {
+    margin: .625rem; } }

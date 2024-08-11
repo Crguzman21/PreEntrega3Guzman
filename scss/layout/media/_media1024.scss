@@ -1,0 +1,24 @@
+@media (max-width:1024px){
+    .navbar{
+        gap: 3.125rem;
+    }
+
+    .damas{
+        p{
+            margin: .625rem .625rem;
+            gap: 1.25rem;
+        }
+    }
+    .card{
+        width: 80%;
+        margin: 1.25rem;
+        height: 35rem;
+            img{
+                width: 100%;
+            }
+    }
+
+    .form{
+        margin: .625rem;
+    }
+}
