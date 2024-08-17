@@ -3,8 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  border: solid 1px red; }
+  box-sizing: border-box; }
 
 /*importando lo que corresponde a layout*/
 .encabezado {
