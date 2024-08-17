@@ -1,0 +1,18 @@
+@media (max-width:330px){
+    .img-2{
+        object-fit: contain;
+        width: 15.625rem;
+        height: 90%;
+    }
+
+    .damas{
+        p{
+            text-align: center;
+            margin-right: .625rem;
+            width: 85%;
+        }
+        img{
+            width: 90%;
+        }
+    }
+}

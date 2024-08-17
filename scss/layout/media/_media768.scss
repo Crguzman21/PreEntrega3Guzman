@@ -1,0 +1,61 @@
+@media (max-width:768px){
+    .navbar{
+        margin: .625rem 0;
+        gap: .0625rem;
+        justify-content: center;
+        align-items: center;
+            a{
+                font-size: 24px;
+            }
+    }
+
+    main{
+        h2{
+            font-size: 24px;
+        }
+        .destacados{
+            display: flex;
+            flex-direction: column;
+        }
+        .orden-div{
+            display: flex;
+            p{
+                font-size: 24px;
+            }
+        }
+    }
+
+    .damas{
+        display: flex;
+        flex-direction: column;
+        margin-right: .9375rem;
+            img{
+                display: flex;
+                object-fit: contain;
+            }
+    }
+
+    .producto{
+        div{
+            img{
+                width: 12.5rem;
+                height: 15.625rem;
+            }
+        }
+        p{
+            font-size: 24px;
+        }
+    }
+
+    .pie-pagina{
+        gap: .625rem;
+            p{
+                font-size: 1.5rem;
+            }
+    }
+
+
+    // 776
+
+}
+

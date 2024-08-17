@@ -1,0 +1,28 @@
+@media (max-width:596px){
+    .navbar{
+        a{
+            margin: 1.25rem;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .img-1{
+        width: 90%;
+    }
+    .pie-pagina{
+        display: flex;
+        flex-direction: column;
+        height: 31.25rem;
+            div{
+                gap: .625rem;
+                    img{
+                        width: 6.25rem;
+                        height: 6.25rem;
+                    }
+            }
+            p{
+                font-size: 1.125rem;
+            }
+    }
+}
