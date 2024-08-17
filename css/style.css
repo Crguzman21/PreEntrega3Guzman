@@ -10,7 +10,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../../assets/img/encabezado.jpg");
+  background-image: url("../assets/img/encabezado.jpg");
   height: 11.6875rem;
   background-size: 100% 100%; }
   .encabezado h1 {
