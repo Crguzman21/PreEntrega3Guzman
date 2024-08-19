@@ -23,6 +23,20 @@
             }
             p{
                 font-size: 1.125rem;
+                margin: .625rem;
             }
+    }
+    .videos{
+        div{
+            width: 100%;
+            video{
+                margin: .625rem;
+                height: 80%;
+            }
+            .icons{
+                margin: .625rem;
+                height: 90%;
+            }
+        }
     }
 }

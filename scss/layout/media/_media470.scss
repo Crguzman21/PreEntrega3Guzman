@@ -1,0 +1,14 @@
+@media (max-width:470px){
+    .peinados{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .videos{
+        div{
+            video{
+                height: 50%;
+            }
+        }
+    }
+}

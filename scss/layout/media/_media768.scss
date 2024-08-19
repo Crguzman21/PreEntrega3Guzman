@@ -1,6 +1,5 @@
 @media (max-width:768px){
     .navbar{
-        margin: .625rem 0;
         gap: .0625rem;
         justify-content: center;
         align-items: center;
@@ -29,6 +28,7 @@
         display: flex;
         flex-direction: column;
         margin-right: .9375rem;
+        margin: 1.25rem;
             img{
                 display: flex;
                 object-fit: contain;

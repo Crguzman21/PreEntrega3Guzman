@@ -1,0 +1,12 @@
+@media (max-width:450px){
+    .icons{
+        align-items: center;
+        justify-content: center;
+        ul{
+            li{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}

@@ -5,7 +5,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  border: 1px solid red; }
 
 /*importando lo que corresponde a layout*/
 .encabezado {
@@ -263,6 +264,8 @@ button {
     margin: 1.25rem; } }
 
 @media (max-width: 1155px) {
+  .navbar {
+    gap: 5rem; }
   .peinados-damas {
     width: 100%; }
     .peinados-damas .damas {
@@ -312,7 +315,7 @@ button {
   .producto div img {
     width: 18.75rem; } }
 
-@media (max-width: 940px) {
+@media (max-width: 943px) {
   .navbar {
     gap: 1.5625rem; }
     .navbar a {
@@ -322,7 +325,9 @@ button {
   .producto div img {
     width: 15.625rem; } }
 
-@media (max-width: 776px) {
+@media (max-width: 786px) {
+  .navbar {
+    gap: .625rem; }
   .producto div img {
     width: 17.5rem;
     margin: 0 1.25rem;
@@ -330,7 +335,6 @@ button {
 
 @media (max-width: 768px) {
   .navbar {
-    margin: .625rem 0;
     gap: .0625rem;
     justify-content: center;
     align-items: center; }
@@ -348,7 +352,8 @@ button {
   .damas {
     display: flex;
     flex-direction: column;
-    margin-right: .9375rem; }
+    margin-right: .9375rem;
+    margin: 1.25rem; }
     .damas img {
       display: flex;
       object-fit: contain; }
@@ -379,6 +384,10 @@ button {
     width: 3.125rem;
     height: 3.125rem; } }
 
+@media (max-width: 655px) {
+  .peinados p {
+    font-size: 20px; } }
+
 @media (max-width: 596px) {
   .navbar a {
     margin: 1.25rem;
@@ -396,7 +405,21 @@ button {
         width: 6.25rem;
         height: 6.25rem; }
     .pie-pagina p {
-      font-size: 1.125rem; } }
+      font-size: 1.125rem;
+      margin: .625rem; }
+  .videos div {
+    width: 100%; }
+    .videos div video {
+      margin: .625rem;
+      height: 80%; }
+    .videos div .icons {
+      margin: .625rem;
+      height: 90%; } }
+
+@media (max-width: 540px) {
+  .peinados img {
+    width: 15.625rem;
+    object-fit: contain; } }
 
 @media (max-width: 490px) {
   .navbar {
@@ -413,7 +436,27 @@ button {
   main .peinados-damas {
     flex-direction: column-reverse; }
   main .producto p {
-    font-size: 18px; } }
+    font-size: 18px; }
+  .videos div {
+    width: 70%; }
+    .videos div video {
+      margin: .625rem;
+      height: 70%; } }
+
+@media (max-width: 470px) {
+  .peinados {
+    display: flex;
+    flex-direction: column; }
+  .videos div video {
+    height: 50%; } }
+
+@media (max-width: 450px) {
+  .icons {
+    align-items: center;
+    justify-content: center; }
+    .icons ul li {
+      display: flex;
+      flex-direction: column; } }
 
 @media (max-width: 330px) {
   .img-2 {
