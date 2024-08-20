@@ -42,4 +42,31 @@
             }
         }
     }
+    
+    .grid{
+        .card{
+            margin: 0 1.875rem;
+            height: 100%;
+                .card-img{
+                    img{
+                        height: 70%;
+                    }
+                }
+                .card-info{
+                    object-fit: contain;
+                    height: 30%;
+                    h3{
+                        font-size: 15px;
+                    }
+                    ul{
+                        li{
+                            font-size: 12px;
+                        }
+                    }
+                    button{
+                        justify-content: flex-end;
+                    }
+                }
+        }
+    }
 }

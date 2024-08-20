@@ -9,5 +9,12 @@
                 font-size: 1.75rem;
             }
     }
-
+    
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+            .card{
+                margin: 6.25rem;
+            }
+    }
 }

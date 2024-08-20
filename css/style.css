@@ -125,7 +125,7 @@ main .videos {
 .card {
   margin: 1.875rem;
   width: 21.875rem;
-  height: 32.8125rem;
+  height: 34.375rem;
   background-color: white;
   border-radius: .625rem;
   box-shadow: .625rem .625rem 1.25rem black; }
@@ -248,7 +248,9 @@ button {
 @media (max-width: 1283px) {
   .producto div img {
     object-fit: contain;
-    width: 25rem; } }
+    width: 25rem; }
+  .card {
+    margin: .9375rem; } }
 
 @media (max-width: 1223px) {
   .navbar {
@@ -273,7 +275,9 @@ button {
       .peinados-damas .damas p {
         margin: 0 0; }
       .peinados-damas .damas img {
-        margin: 0 0; } }
+        margin: 0 0; }
+  .card {
+    margin: .625rem; } }
 
 @media (max-width: 1120px) {
   .navbar {
@@ -281,7 +285,12 @@ button {
   .damas {
     gap: 0; }
     .damas p {
-      font-size: 1.75rem; } }
+      font-size: 1.75rem; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+    .grid .card {
+      margin: 6.25rem; } }
 
 @media (max-width: 1090px) {
   .peinados-damas .damas {
@@ -290,9 +299,7 @@ button {
   .producto div {
     width: 100%; }
     .producto div img {
-      width: 21.875rem; }
-  .card {
-    margin: .625rem 0; } }
+      width: 21.875rem; } }
 
 @media (max-width: 1024px) {
   .navbar {
@@ -303,8 +310,8 @@ button {
       margin: .625rem .625rem;
       gap: 1.25rem; }
   .card {
-    width: 80%;
-    margin: 1.25rem;
+    width: 65%;
+    margin: .625rem;
     height: 35rem; }
     .card img {
       width: 100%; }
@@ -323,7 +330,9 @@ button {
 
 @media (max-width: 885px) {
   .producto div img {
-    width: 15.625rem; } }
+    width: 15.625rem; }
+  .grid .card {
+    margin: 5rem; } }
 
 @media (max-width: 786px) {
   .navbar {
@@ -414,7 +423,9 @@ button {
       height: 80%; }
     .videos div .icons {
       margin: .625rem;
-      height: 90%; } }
+      height: 90%; }
+  .grid .card {
+    margin: 2.5rem; } }
 
 @media (max-width: 540px) {
   .peinados img {
@@ -441,7 +452,21 @@ button {
     width: 70%; }
     .videos div video {
       margin: .625rem;
-      height: 70%; } }
+      height: 70%; }
+  .grid .card {
+    margin: 0 1.875rem;
+    height: 100%; }
+    .grid .card .card-img img {
+      height: 70%; }
+    .grid .card .card-info {
+      object-fit: contain;
+      height: 30%; }
+      .grid .card .card-info h3 {
+        font-size: 15px; }
+      .grid .card .card-info ul li {
+        font-size: 12px; }
+      .grid .card .card-info button {
+        justify-content: flex-end; } }
 
 @media (max-width: 470px) {
   .peinados {
