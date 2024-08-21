@@ -45,6 +45,8 @@
     
     .grid{
         .card{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
             margin: 0 1.875rem;
             height: 100%;
                 .card-img{
@@ -69,4 +71,12 @@
                 }
         }
     }
+
+    .form{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        height: 37.5rem;
+        margin: .3125rem;
+    }
+    
 }

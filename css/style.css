@@ -125,7 +125,7 @@ main .videos {
 .card {
   margin: 1.875rem;
   width: 21.875rem;
-  height: 34.375rem;
+  height: 34.37rem;
   background-color: white;
   border-radius: .625rem;
   box-shadow: .625rem .625rem 1.25rem black; }
@@ -454,6 +454,8 @@ button {
       margin: .625rem;
       height: 70%; }
   .grid .card {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
     margin: 0 1.875rem;
     height: 100%; }
     .grid .card .card-img img {
@@ -466,7 +468,12 @@ button {
       .grid .card .card-info ul li {
         font-size: 12px; }
       .grid .card .card-info button {
-        justify-content: flex-end; } }
+        justify-content: flex-end; }
+  .form {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    height: 37.5rem;
+    margin: .3125rem; } }
 
 @media (max-width: 470px) {
   .peinados {
