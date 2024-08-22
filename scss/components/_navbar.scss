@@ -15,8 +15,28 @@
             color: $colorLetra;
             font-size: 2rem;
             margin-right: 3.125rem;
-            &:hover{
-                box-shadow: 2px 2px 5px black;
+            &:before {
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                height: 2px;
+                background-color: yellow; 
+                transform: translateX(-100%);
+                transition: transform 0.3s ease-in-out;
+            }
+        
+            &:hover {
+                color: yellow; 
+        
+                &:before {
+                    transform: translateX(0);
+                }
+            }
+            &:hover {
+                color: yellow;
+                transition: color 0.3s ease-in-out;
             }
         }
 }
