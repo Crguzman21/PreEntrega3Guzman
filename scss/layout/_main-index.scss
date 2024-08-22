@@ -10,6 +10,7 @@ main{
     }
     div{
         @include center;
+        margin: 1.25rem;
     }
 
     p{
@@ -23,7 +24,7 @@ main{
 }
 
 .img-1{
-    width: 34.5rem;
+    width: 31.25rem;
     height: 19.9375rem;
     margin: .625rem;
 }

@@ -1,7 +1,7 @@
 .boton{
-    background-color: lightblue;
+    background-color: $colorForm;
     border-radius: .625rem;
-    color: black;
+    color: $colorLetra;
     padding: 15px 32px;
     box-shadow: .625rem .625rem 1.25rem black;
     text-align: center;
@@ -15,7 +15,7 @@
 button{
     background-color: whitesmoke;
     border-radius: .625rem;
-    color: black;
+    color: $colorLetra;
     padding: .625rem .625rem;
     text-align: center;
     font-size: .75rem;
