@@ -44,6 +44,10 @@ main p {
   font-weight: 600;
   font-style: italic; }
 
+main img:hover {
+  transform: scale(1.1);
+  transition: 1s; }
+
 .img-1 {
   width: 31.25rem;
   height: 19.9375rem;
