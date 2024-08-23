@@ -473,22 +473,22 @@ button {
     .videos div video {
       margin: .625rem;
       height: 70%; }
-  .grid .card {
+  .grid {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    margin: 0 1.875rem;
-    height: 100%; }
-    .grid .card .card-img img {
-      height: 70%; }
-    .grid .card .card-info {
-      object-fit: contain;
-      height: 30%; }
-      .grid .card .card-info h3 {
-        font-size: 15px; }
-      .grid .card .card-info ul li {
-        font-size: 12px; }
-      .grid .card .card-info button {
-        justify-content: flex-end; }
+    grid-template-columns: repeat(1, 1fr); }
+    .grid .card {
+      margin: 0 1.875rem;
+      height: 95%; }
+      .grid .card .card-img {
+        height: 70%; }
+      .grid .card .card-info {
+        height: 20%; }
+        .grid .card .card-info h3 {
+          font-size: 15px; }
+        .grid .card .card-info ul li {
+          font-size: 12px; }
+        .grid .card .card-info button {
+          justify-content: flex-end; }
   .form {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
